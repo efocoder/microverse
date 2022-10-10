@@ -16,5 +16,10 @@
 - `bundle install`
 - `rails db:create`
 - `rails db:migrate`
+- Run `rails db:seed` to create default login credentials
 - Make sure redis in running on your host
 - Finally run `rails server` to start the application
+
+NB: Login credentials:
+Email: test@gmail.com
+Password: pas1234!
