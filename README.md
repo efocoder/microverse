@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# This is a simple rails application for fetching and storing users into database.
 
-Things you may want to cover:
+### Technologies
+- Ruby 2.6.0
+- Rails 5
+- PostgreSQL
+- Redis
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## How to:
+- clone the project repository
+- cd into the project directory
+- copy .env.example and create .evn file. Fill in the credentials
+- Run the following commands
+- `bundle install`
+- `rails db:create`
+- `rails db:migrate`
+- Make sure redis in running on your host
+- Finally run `rails server` to start the application
